@@ -60,7 +60,15 @@ public class Main {
         System.out.println("TASK2");
 
         HashSet<Book> hashSet = UtilGenerate.generateHashSet();
-        UtilPrint.printHashSet(hashSet);
+
+//        for (Book str : hashSet) {
+//
+//            boolean test = str.matches("^(?i:[AaEeIiOoUuYy]).*");
+//
+//            if (test) {
+//                System.out.println(str);
+//            }
+//        }
 
         System.out.println("TASK3");
 

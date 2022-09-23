@@ -13,15 +13,8 @@ public class UtilPrint {
     public static void printHashSet(HashSet<Book> hashSet) {
         System.out.println(hashSet);
 
-//              don't work     the method should display words starting with a vowel
-//        for (Book str : hashSet) {
-//
-//            boolean test = str.matches("^(?i:[AaEeIiOoUuYy]).*");
-//
-//            if (test) {
-//                System.out.println(str);
-//            }
-//        }
+            //  don't work     the method should display words starting with a vowel
+
 
     }
 

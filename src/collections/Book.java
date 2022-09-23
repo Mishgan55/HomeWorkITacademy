@@ -52,7 +52,8 @@ public class Book implements Titles, Comparable<Book> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Book book = (Book) o;
-        return Objects.equals(title, book.title) && Objects.equals(name, book.name) && Objects.equals(surname, book.surname);
+        return Objects.equals(title, book.title) && Objects.equals(name, book.name)
+                && Objects.equals(surname, book.surname);
     }
 
 

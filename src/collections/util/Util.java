@@ -24,6 +24,11 @@ public class Util implements Titles {
 
 
     }
+    public static String getRandomOfUser() {
+        String[] author = {"Danil", "Alexei", "Nikita", "Slava", "Pushkin", "Lebedev", "Andrei"};
+        int a = (int) Math.floor(Math.random() * author.length);
+        return author[a];
+    }
 
 
     public static String getRandomName() {
@@ -62,4 +67,3 @@ public class Util implements Titles {
     }
 
 }
-
